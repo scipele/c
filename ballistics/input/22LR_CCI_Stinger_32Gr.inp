@@ -1,0 +1,9 @@
+# 22LR CCI Stinger
+
+name=.30-06 Win 150gr PowerMax Bonded
+muzzle_velocity=1640
+bullet_weight=32
+ballistic_coef=0.084
+drag_model=G7
+zero_range=100
+sight_height=1.25

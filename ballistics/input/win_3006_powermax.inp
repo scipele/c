@@ -1,0 +1,12 @@
+# .30-06 Springfield 150gr Winchester PowerMax Bonded
+# Hunting load for deer, antelope, and black bear
+# Protected Hollow Point (PHP) - Bonded rapid expansion
+# Use G7 Drag Model
+
+name=.30-06 Win 150gr PowerMax Bonded
+muzzle_velocity=2920
+bullet_weight=150
+ballistic_coef=0.325
+drag_model=G7
+zero_range=300
+sight_height=1.5
