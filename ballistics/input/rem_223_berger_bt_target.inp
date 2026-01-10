@@ -1,0 +1,9 @@
+# 223
+
+name=rem_223_berger_bt_target
+muzzle_velocity=2800
+bullet_weight=73
+ballistic_coef=0.348
+drag_model=G7
+zero_range=200
+sight_height=1.5
