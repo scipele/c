@@ -60,6 +60,7 @@ void list_files(const char *path, FileInfo** head) {
 #endif
 }
 
+#ifndef _WIN32
 void list_files_posix(const char *path, FileInfo** head) {
     DIR *dir = opendir(path);
     if (!dir) {
@@ -129,6 +130,7 @@ void list_files_posix(const char *path, FileInfo** head) {
     }
     closedir(dir);
 }
+#endif
 
 #ifdef _WIN32
 void list_files_win(const char *path, FileInfo** head) {
